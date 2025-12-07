@@ -66,8 +66,8 @@ export default function CardContent() {
 
       <hr className={classes.separator} />
 
-      <section>
-        <h2>Nutrition</h2>
+      <section className={classes["nutrition-section"]}>
+        <h2 className={classes["section-heading"]}>Nutrition</h2>
         <p>
           The table below shows nutritional values per serving without the
           additional fillings.

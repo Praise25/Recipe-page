@@ -1,43 +1,3 @@
-.text-preset-1 {
-  font-family: var(--young-serif);
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 100%;
-  letter-spacing: 0px;
-}
-
-.text-preset-2 {
-  font-family: var(--young-serif);
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 100%;
-  letter-spacing: 0px;
-}
-
-.text-preset-3 {
-  font-family: var(--outfit);
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 100%;
-  letter-spacing: 0px;
-}
-
-.text-preset-4 {
-  font-family: var(--outfit);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0px;
-}
-
-.text-preset-4-bold {
-  font-family: var(--outfit);
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0px;
-}
-
 .heading {
   font-family: var(--young-serif);
   font-weight: 400;
@@ -64,7 +24,7 @@
   line-height: 100%;
   letter-spacing: 0px;
   color: var(--brown-800);
-  margin-bottom: 1.5rem;
+  margin-bottom: 23.5px;
 }
 
 .preparation-section {
@@ -176,7 +136,58 @@
 .instructions-section ol li::marker {
   color: var(--brown-800);
   font-family: var(--outfit);
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
+.nutrition-section p {
+  font-family: var(--outfit);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: var(--stone-600);
+  margin-bottom: 0.75rem;
+}
+
+.nutrition-section table {
+  display: flex;
+}
+
+.nutrition-section table tbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nutrition-section table tbody tr {
+  display: flex;
+  width: 100%;
+  padding: 0.719rem 2rem;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.nutrition-section table tbody tr:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.nutrition-section table tbody tr td {
+  flex: 1;
+  font-family: var(--outfit);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: var(--stone-600);
+}
+
+.nutrition-section table tbody tr td:last-child {
+  font-family: var(--outfit);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0px;
+  color: var(--brown-800);
+  padding-left: 1rem;
+}
