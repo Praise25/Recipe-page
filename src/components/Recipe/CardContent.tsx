@@ -20,7 +20,7 @@ export default function CardContent() {
       </section>
 
       <section className={classes["ingredients-section"]}>
-        <h2>Ingredients</h2>
+        <h2 className={classes["section-heading"]}>Ingredients</h2>
         <ul>
           <li>2-3 large eggs</li>
           <li>Salt, to taste</li>
@@ -31,6 +31,8 @@ export default function CardContent() {
           </li>
         </ul>
       </section>
+
+      <hr className={classes.separator} />
 
       <section>
         <h2>Instructions</h2>
