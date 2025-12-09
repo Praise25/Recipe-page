@@ -5,7 +5,7 @@
   line-height: 100%;
   letter-spacing: 0rem;
   color: var(--stone-900);
-  margin-bottom: 1.5rem;
+  margin-block-end: 1.5rem;
 }
 
 .description {
@@ -17,6 +17,18 @@
   color: var(--stone-600);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .section-heading {
   font-family: var(--young-serif);
   font-weight: 400;
@@ -24,7 +36,7 @@
   line-height: 100%;
   letter-spacing: 0rem;
   color: var(--brown-800);
-  margin-bottom: 1.469rem;
+  margin-block-end: 1.469rem;
 }
 
 .preparation-section {
@@ -41,7 +53,7 @@
   line-height: 100%;
   letter-spacing: 0rem;
   color: var(--rose-800);
-  margin-bottom: 1rem;
+  margin-block-end: 1rem;
 }
 
 .preparation-section ul {
@@ -50,7 +62,7 @@
 
 .preparation-section ul li {
   padding-left: 1rem;
-  margin-bottom: 0.5rem;
+  margin-block-end: 0.5rem;
   font-family: var(--outfit);
   font-weight: 400;
   font-size: 1rem;
@@ -60,7 +72,7 @@
 }
 
 .preparation-section ul li:last-child {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .preparation-section ul li::marker {
@@ -82,7 +94,7 @@
 
 .ingredients-section ul li {
   padding-left: 1rem;
-  margin-bottom: 0.5rem;
+  margin-block-end: 0.5rem;
   font-family: var(--outfit);
   font-weight: 400;
   font-size: 1rem;
@@ -92,7 +104,7 @@
 }
 
 .ingredients-section ul li:last-child {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .ingredients-section ul li::marker {
@@ -112,7 +124,7 @@
 
 .instructions-section ol li {
   padding-left: 1rem;
-  margin-bottom: 0.5rem;
+  margin-block-end: 0.5rem;
   font-family: var(--outfit);
   font-weight: 400;
   font-size: 1rem;
@@ -130,7 +142,7 @@
 }
 
 .instructions-section ol li:last-child {
-  margin-bottom: 0;
+  margin-block-end: 0;
 }
 
 .instructions-section ol li::marker {
@@ -147,23 +159,17 @@
   line-height: 150%;
   letter-spacing: 0rem;
   color: var(--stone-600);
-  margin-bottom: 0.75rem;
+  margin-block-end: 0.75rem;
 }
 
 .nutrition-section table {
-  display: flex;
-}
-
-.nutrition-section table tbody {
-  display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
 .nutrition-section table tbody tr {
   display: flex;
   width: 100%;
-  padding: 0.719rem 2rem;
+  padding: 0.719rem 1.875rem;
   border-bottom: 1px solid var(--stone-150);
 }
 
@@ -192,14 +198,14 @@
   padding-left: 1rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 30rem) {
   /* mobile */
   .root-container {
     padding: 2.5rem;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 30.0625rem) and (max-width: 47.9375rem) {
   /* large mobile */
   .root-container {
     padding: 2.5rem;
