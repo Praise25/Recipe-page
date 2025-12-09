@@ -3,7 +3,7 @@
   font-weight: 400;
   font-size: 2.5rem;
   line-height: 100%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--stone-900);
   margin-bottom: 1.5rem;
 }
@@ -13,7 +13,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--stone-600);
 }
 
@@ -22,9 +22,9 @@
   font-weight: 400;
   font-size: 1.75rem;
   line-height: 100%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--brown-800);
-  margin-bottom: 23.5px;
+  margin-bottom: 1.469rem;
 }
 
 .preparation-section {
@@ -39,7 +39,7 @@
   font-weight: 600;
   font-size: 1.25rem;
   line-height: 100%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--rose-800);
   margin-bottom: 1rem;
 }
@@ -55,7 +55,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--stone-600);
 }
 
@@ -73,7 +73,7 @@
   font-weight: 700;
   font-size: 1rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
 }
 
 .ingredients-section ul {
@@ -87,7 +87,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--stone-600);
 }
 
@@ -117,7 +117,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--stone-600);
 }
 
@@ -126,7 +126,7 @@
   font-weight: 700;
   font-size: 1rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
 }
 
 .instructions-section ol li:last-child {
@@ -145,7 +145,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--stone-600);
   margin-bottom: 0.75rem;
 }
@@ -178,7 +178,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--stone-600);
 }
 
@@ -187,7 +187,7 @@
   font-weight: 700;
   font-size: 1rem;
   line-height: 150%;
-  letter-spacing: 0px;
+  letter-spacing: 0rem;
   color: var(--brown-800);
   padding-left: 1rem;
 }
