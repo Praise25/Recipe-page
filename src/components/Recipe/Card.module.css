@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   background-color: var(--white);
-  max-width: 46%;
+  width: 46%;
   margin: 8rem 0;
   padding: 2.5rem;
   border-radius: 1.5rem;
@@ -32,20 +32,20 @@
 @media screen and (min-width: 48rem) and (max-width: 63.9375rem) {
   /* tablets */
   .container {
-    max-width: 80%;
+    width: 80%;
   }
 }
 
 @media screen and (min-width: 64rem) and (max-width: 89.9375rem) {
   /* laptops */
   .container {
-    max-width: 46%;
+    width: 46%;
   }
 }
 
 @media screen and (min-width: 90rem) {
   /* desktops & wide screens */
   .container {
-    max-width: 46%;
+    width: 46%;
   }
 }
