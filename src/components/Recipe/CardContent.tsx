@@ -2,7 +2,7 @@ import classes from "./CardContent.module.css"
 
 export default function CardContent() {
   return (
-    <section>
+    <section className={classes["root-container"]}>
       <h1 className={classes.heading}>Simple Omelette Recipe</h1>
       <p className={classes.description}>
         An easy and quick dish, perfect for any meal. This classic omelette
