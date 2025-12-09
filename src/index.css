@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 
 :root {
+  --white: #ffffff;
   --rose-50: #fff7fb;
   --rose-800: #7a284e;
   --stone-100: #f3e5d7;

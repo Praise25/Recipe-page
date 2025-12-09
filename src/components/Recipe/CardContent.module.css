@@ -57,7 +57,7 @@
 }
 
 .preparation-section ul {
-  margin-left: 1.5rem;
+  margin-inline-start: 1.5rem;
 }
 
 .preparation-section ul li {
@@ -89,7 +89,7 @@
 }
 
 .ingredients-section ul {
-  margin-left: 1.5rem;
+  margin-inline-start: 1.5rem;
 }
 
 .ingredients-section ul li {
@@ -119,7 +119,7 @@
 }
 
 .instructions-section ol {
-  margin-left: 1.5rem;
+  margin-inline-start: 1.5rem;
 }
 
 .instructions-section ol li {
